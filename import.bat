@@ -16,4 +16,4 @@ cd ..\TestApp
 git remote add origin https://github.com/hrubymar/test.git
 git add .
 git commit -m "tfs commit"
-git push -u master tfs
+git push -u origin master
