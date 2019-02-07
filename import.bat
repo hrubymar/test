@@ -14,7 +14,7 @@ cd ..\TestApp
 xcopy . ..\testtfs\test /E /H /Y
 cd ..\TestApp
 rem git remote add origin https://github.com/hrubymar/test.git
-git pull origin master
+rem git pull origin master
 git add .
 git commit -m "tfs commit"
-git push -u origin master
+git push -u origin master --force
