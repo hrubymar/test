@@ -13,7 +13,7 @@ git clone https://github.com/hrubymar/test.git
 cd ..\TestApp
 xcopy . ..\testtfs\test /E /H /Y
 cd ..\TestApp
-git remote add origin https://github.com/hrubymar/test.git
+rem git remote add origin https://github.com/hrubymar/test.git
 git add .
 git commit -m "tfs commit"
 git push -u origin master
